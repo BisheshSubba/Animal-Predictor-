@@ -32,17 +32,17 @@ and deployed locally with a <b>Tkinter GUI</b> for real-time image predictions.
 
 <pre>
 # Clone repo
-git clone https://github.com/your-username/animal-classifier-resnet34.git
+git clone https://github.com/BisheshSubba/Animal-Predictor-.git
 cd animal-classifier-resnet34
 
 # Install dependencies
 pip install torch torchvision Pillow kagglehub
 
 # (Optional) Train the model
-python train_model.py
+python predictor.py
 
 # Run GUI for prediction
-python predict_gui.py
+python animalclassifier.py
 </pre>
 
 <h3>📦 Model Output</h3>
